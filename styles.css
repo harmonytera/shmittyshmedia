@@ -8,3 +8,5 @@
 /* Playful display type inspired by the original Ride My Bike Pro Bold direction. */
 
 @media(max-width:850px){.brand{height:64px}.brand img{width:205px;max-height:64px}}
+
+.social-strip{margin-top:38px;display:flex;align-items:center;gap:22px;color:#9a9a97;font-size:10px;text-transform:uppercase;letter-spacing:.14em}.social-links{display:flex;gap:18px;align-items:center}.social-links a{color:inherit;transition:color .2s}.social-links a:hover{color:#fff}.footer-socials{display:flex;flex-direction:column;gap:8px;color:#999;font-size:10px;text-transform:uppercase;letter-spacing:.12em}.footer-socials .social-links{gap:14px;color:#fff}.footer-socials .social-links a:hover{color:#aaa}.site-footer{grid-template-columns:1fr 1.4fr 1fr}.site-footer>a{white-space:nowrap}@media(max-width:850px){.social-strip{align-items:flex-start;flex-direction:column;gap:10px;margin-top:30px}.footer-socials{order:2}.site-footer div{order:3}.site-footer>a{order:1}.site-footer{grid-template-columns:1fr}}
