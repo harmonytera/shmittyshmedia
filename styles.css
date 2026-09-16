@@ -22,3 +22,55 @@
 
 
 .pricing-helper{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:28px;padding:22px 0;border-top:1px solid #bcbcb8}.pricing-helper p{margin:0;color:#5d5d59;font-size:16px;max-width:620px}.prep-scope .button{margin-top:28px}@media(max-width:850px){.pricing-helper{display:block}.pricing-helper .text-link{margin-top:16px}}
+
+@font-face {
+  font-family: 'RideMyBike Pro';
+  src: url('assets/fonts/ridemybike-pro-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.site-header nav a,
+.header-cta,
+.button,
+.text-link,
+.site-footer .footer-cta {
+  font-family: 'RideMyBike Pro', var(--sans);
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  font-synthesis: none;
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.site-header nav a,
+.header-cta {
+  font-size: 26px;
+}
+
+.site-header nav a { white-space: nowrap; }
+.button { padding: 12px 20px; }
+.header-cta { padding: 8px 15px; }
+.site-footer .footer-cta { padding: 10px 18px; }
+.text-link { max-width: 100%; }
+.final-cta .text-link { max-width: 100%; }
+
+@media (min-width: 851px) and (max-width: 1100px) {
+  .site-header .brand img { width: 280px; }
+  .site-header { gap: 20px; padding-inline: 22px; }
+  .site-header nav { gap: 16px; }
+}
+
+@media (max-width: 850px) {
+  .site-header nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .button,
+  .text-link,
+  .site-footer .footer-cta { font-size: 26px; }
+}
