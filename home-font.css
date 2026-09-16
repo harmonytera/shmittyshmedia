@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'RideMyBike Pro';
+  src: url('assets/fonts/ridemybike-pro-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RideMyBike Pro';
+  src: url('assets/fonts/ridemybike-pro-bold-italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+.home h1,
+.home h2,
+.home h3 {
+  font-family: 'RideMyBike Pro', var(--sans);
+  font-weight: 700;
+  font-synthesis: none;
+  letter-spacing: 0;
+  line-height: 1.08;
+}
