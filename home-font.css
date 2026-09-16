@@ -23,3 +23,25 @@
   letter-spacing: 0;
   line-height: 1.08;
 }
+
+.home h1 { font-size: 128px; }
+.home h2 { font-size: 96px; }
+.home h3 { font-size: 60px; }
+
+@media (max-width: 1199px) {
+  .home h1 { font-size: 104px; }
+  .home h2 { font-size: 76px; }
+  .home h3 { font-size: 52px; }
+}
+
+@media (max-width: 850px) {
+  .home h1 { font-size: 72px; }
+  .home h2 { font-size: 56px; }
+  .home h3 { font-size: 44px; }
+}
+
+@media (max-width: 380px) {
+  .home h1 { font-size: 64px; }
+  .home h2 { font-size: 52px; }
+  .home h3 { font-size: 40px; }
+}
